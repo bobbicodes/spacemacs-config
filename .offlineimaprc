@@ -1,0 +1,16 @@
+[general]
+accounts = Gmail
+[Account Gmail]
+localrepository = Local
+remoterepository = Remote
+quick = 10
+postsynchook = mu index --maildir ~/Maildir
+[Repository Local]
+type = Maildir
+localfolders = ~/Maildir
+[Repository Remote]
+type = Gmail
+remotehost = imap.gmail.com
+remoteuser = btowers793@gmail.com
+ssl = yes
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
