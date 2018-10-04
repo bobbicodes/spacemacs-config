@@ -11,6 +11,6 @@ localfolders = ~/Maildir
 [Repository Remote]
 type = Gmail
 remotehost = imap.gmail.com
-remoteuser = btowers793@gmail.com
+remoteuser = email@gmail.com
 ssl = yes
 sslcacertfile = /etc/ssl/certs/ca-certificates.crt
